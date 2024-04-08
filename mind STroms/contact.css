@@ -1,0 +1,125 @@
+body {
+  background-image: url("ms 1C.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat:no-repeat ;
+  font-size: 30px;
+  padding: 30px;
+  text-size-adjust: 1px;
+  text-align: center;
+    
+  }
+
+h1{
+  color: rgb(48, 127, 131);
+  font-optical-sizing: 50px;
+  font-size: 40px;
+}
+h2{
+  color: rgb(158, 166, 167);
+  font-optical-sizing: 200px;
+  font-size: 20px;
+}
+header a {
+  color: rgb(131, 123, 123);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+header .logo a {
+    background-image: url("mslogo 3.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  height: 80px;
+  position: relative;
+  text-indent: -9999999px;
+  top: -30px;
+  margin: 0%;
+  width: 100px;
+}
+
+nav ul {
+  color: #b65858;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/*Contact*/
+.name{
+  font-size: 50px;
+  color: rgb(144, 148, 144);
+}
+.container{
+  text-align: center;
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 40%; /* Full width */
+  display: flex;
+  text-align: center;
+  padding: 12px; /* Some padding */ 
+  margin-left: 430px;
+  border: rgba(255, 255, 255, 0.5) /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #746e6e;
+  color: rgb(238, 227, 227);
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #828a83;
+}
+
+/* Add a background color and some padding around the form */
+.container{
+  border-radius: 3px;
+  background-color: #d3bbbb;
+  font-size: 10px;
+  padding: 2px;
+}
+}
+/*contact us*/
+.contact{
+background-color: rgb(22, 46, 179);
+padding: auto;
+text-align: center;
+}
+.find{
+text-align: center;
+margin-bottom: 0px;
+}
+.how{
+text-align: center;
+font-size: 5px;
+margin-top: 0%;
+margin-bottom: -1%;
+
+}
+.contactbutton{
+
+background-position: center;
+background-repeat: no-repeat;
+text-align: center;
+
+}
+
+ 

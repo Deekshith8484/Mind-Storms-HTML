@@ -1,0 +1,204 @@
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HEADER */
+  
+  header {
+    background-color: black;
+    /*  sorry for the LONG urls, I had to upload them to google drive  */
+    background-image: url("ms 1C.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat:no-repeat ;
+    font-size: 8px;
+    padding: 30px;
+    text-size-adjust: 1px;
+    text-align: center;
+  }
+  h1{
+    color: rgb(24, 25, 26);
+    font-optical-sizing: 50px;
+    font-size: 40px;
+  }
+  h2{
+    color: rgb(158, 166, 167);
+    font-optical-sizing: 200px;
+    font-size: 20px;
+  }
+  header a {
+    color: rgb(131, 123, 123);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  
+  header .logo a {
+      background-image: url("mslogo 3.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -30px;
+    margin: 0%;
+    width: 100px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  /* aim */
+  .aim{
+    background-color: rgb(90, 124, 126);
+    padding: 20px;
+    margin: auto;
+    font-size: 8px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Blogs */
+  .Blogs {
+    background:rgb(243, 240, 240);
+    color: rgb(36, 33, 33);
+    padding: -50px;
+    display: flex;
+    flex-direction: row;
+    text-align: auto;
+    font-size:8px;
+
+  }
+  .Blogs figure {
+    margin-left:auto;
+    padding: 0px;
+    
+  }
+  .Blogs figure img {
+    border-radius: 10%;
+    box-shadow: rgb(230, 227, 227) 0 0 10px;
+    width: 200px;
+  }
+/* feedback */
+.feedback{
+    background-color: rgb(109, 109, 70);
+    padding: 5px;
+    text-align: center;
+    font-size: xx-small;
+}
+/*about*/
+.about{
+    background-color: rgb(105, 105, 102);
+    padding: 5px;
+    font-size: 8px;
+    display:flex;
+    flex-direction:row;
+    margin: 5px;
+    text-align: auto  ;
+    
+    
+    
+}
+/* mission*/
+.mission{
+  margin-left:80px;
+  background-color: rgb(97, 92, 92);
+  border-radius: 5px;
+  font-size: 8.5px;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+/*vision*/
+.about.vision.h2{
+
+}
+.vision{
+  margin-left:110px;
+  background-color: rgb(97, 92, 92);
+  border-radius: 5px;
+  font-size: 8.5px;
+  text-align: center;
+  margin-bottom: 0%;
+
+}
+
+/*Contact*/
+.container{
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 40%; /* Full width */
+    display: flex;
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container{
+    border-radius: 5px;
+    background-color: #644c4c;
+    font-size: 10px;
+    padding: 2px;
+  }
+}
+/*contact us*/
+.find{
+  text-align: center;
+  margin-bottom: 0%;
+}
+.how{
+  text-align: center;
+  font-size: 5px;
+  margin-top: 0px;
+  margin-bottom: 1%;
+  
+}
+.contactbutton{
+  text-align: center;
+  margin-top: 0%;
+}
+.David{
+  text-align: center;
+}
+  /* FOOTER */
+  
+footer {
+    background: rgb(19, 18, 18);
+    color: gray;
+    font-size: 8px;
+    margin:10px
+
+}
